@@ -33,5 +33,16 @@ records=[
     records = [
       "autodiscover.outlook.com"
     ]
+  },
+  {
+    name    = "preview"
+    type    = "NS"
+    ttl     = 3600
+    records = [
+      "ns-1509.awsdns-60.org",
+      "ns-1965.awsdns-53.co.uk",
+      "ns-282.awsdns-35.com",
+      "ns-727.awsdns-26.net"
+    ]
   }
 ]
